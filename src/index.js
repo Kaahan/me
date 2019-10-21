@@ -37,9 +37,9 @@ class Landing extends Component {
 			<div>
 				<Grid padded>
 					<Grid.Row centered>
-						<Header> 
+						<Header style={{margin: 10}}> 
 							Kaahan Radia 
-							<Header.Subheader> last seen combining dry subjects with interesting narratives </Header.Subheader>
+							<Header.Subheader> <a href="https://bibliotheca.surge.sh"> last seen combining dry subjects with interesting narratives </a> </Header.Subheader>
 						</Header>
 					</Grid.Row>
 					<Grid.Row centered columns={1}>	
