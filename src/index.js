@@ -5,6 +5,7 @@ import Home from './home.js';
 import Projects from './projects.js';
 import Resume from './resume.js';
 import Hobby from './hobby.js';
+import Halloween from './halloween.js';
 
 class Landing extends Component {
 	constructor(props) {
@@ -73,6 +74,6 @@ class Landing extends Component {
 
 // ==========================
 ReactDOM.render(
-	<Landing />,
+	<Halloween />,
 	document.getElementById('root')
 );
